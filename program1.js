@@ -27,7 +27,7 @@ var isValid = function(s) {
         }
     }
     
-    // If the stack is empty, all brackets are properly closed
+ 
     return stack.length === 0;
 };
 
