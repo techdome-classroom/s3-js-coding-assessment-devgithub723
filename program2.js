@@ -13,13 +13,13 @@ var romanToInt = function(s) {
     
     let total = 0;
     
-    // Iterate through the string
+
     for (let i = 0; i < s.length; i++) {
-        // Get the value of the current Roman numeral and the next one
+       
         let currentVal = romanMap[s[i]];
         let nextVal = romanMap[s[i + 1]];
         
-        // If the current value is less than the next value, subtract the current value (e.g., IV = 4)
+        
         if (currentVal < nextVal) {
             total -= currentVal;
         } else {
