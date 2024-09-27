@@ -1,6 +1,6 @@
 
 var romanToInt = function(s) {
-    // Create a map to store the values of each Roman numeral
+   
     const romanMap = {
         'I': 1,
         'V': 5,
