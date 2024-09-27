@@ -1,13 +1,3 @@
-// /**
-//  * @param {string} s
-//  * @return {number}
-//  */
-// var romanToInt = function(s) {
-    
-// };
-
-
-// module.exports={romanToInt}
 
 var romanToInt = function(s) {
     // Create a map to store the values of each Roman numeral
