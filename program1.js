@@ -17,12 +17,12 @@ var isValid = function(s) {
            
             let topElement = stack.length === 0 ? '#' : stack.pop();
             
-            // If the top element doesn't match the corresponding opening bracket, return false
+            
             if (bracketMap[char] !== topElement) {
                 return false;
             }
         } else {
-            // It's an opening bracket, push it onto the stack
+            
             stack.push(char);
         }
     }
