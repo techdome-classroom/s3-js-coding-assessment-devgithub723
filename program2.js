@@ -23,7 +23,7 @@ var romanToInt = function(s) {
         if (currentVal < nextVal) {
             total -= currentVal;
         } else {
-            // Otherwise, add the current value
+            
             total += currentVal;
         }
     }
