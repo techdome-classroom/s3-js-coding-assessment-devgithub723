@@ -1,6 +1,6 @@
 
 var isValid = function(s) {
-    // Stack to keep track of opening brackets
+   
     let stack = [];
     
     // Map to associate closing brackets with corresponding opening ones
